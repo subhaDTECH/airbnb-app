@@ -1,0 +1,33 @@
+.carditem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+    background-color: #fff;
+}
+.carditem:hover{
+    background-color: #efefef;
+}
+.carditem > img {
+    width: 300px;
+    border-radius:10px;
+}
+.carditem__info{
+    flex: 1;
+    margin-left: 30px;
+    padding: 10px;
+}
+.carditem__info > h2{
+    margin: 20px 0px;
+    font-weight: 600;
+    
+
+}
+.carditem__info > Button {
+    margin-right: 20px !important;
+    margin-bottom: 10px;
+    
+}

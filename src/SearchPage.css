@@ -1,0 +1,13 @@
+.searchpage{
+    margin: 20px;
+    padding: 20px;
+}
+.searchpage > h2{
+    padding: 10px;
+}
+.search_page__btn > Button{
+    margin-right: 20px !important;
+}
+.searchPage__items{
+    padding: 20px;
+}

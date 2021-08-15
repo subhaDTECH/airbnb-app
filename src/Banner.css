@@ -1,0 +1,34 @@
+.banner{
+    background-image: url(https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    position: relative;
+    /* margin-top: 20px; */
+}
+.banner_info{
+    width: 450px;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    padding: 40px;
+    position: absolute;
+    
+    
+}
+.banner_info > h2{
+   padding-top: 50px;
+   font-weight: bold;
+   font-size: 30px;
+   margin-top: 30px;
+   padding-left: 20px;
+   text-transform: capitalize;
+}
+.banner_info>  p{
+    padding: 20px;
+}
+.banner__btn{
+    margin-left: 20px !important;
+    
+}
